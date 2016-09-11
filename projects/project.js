@@ -33,5 +33,11 @@ var projects = {
                       "team":"bits please",
                       "link":"https://github.com/akanshugupta9/khana-khazana"
                   },
-	
+                   "IIITA Cart":{
+                      "image":"http://www.iconsplace.com/icons/preview/orange/shoping-cart-filled-256.png",
+                      "team":"fellow hackers",
+                      "link":"https://github.com/fellowhacker/iiitacart"
+                  },
+                  
+                 
 }
