@@ -69,6 +69,11 @@ var projects = {
          		"image":"http://data.whicdn.com/images/32772812/original.gif",
          		"team":"Gallifreyans",
          		"link":"https://github.com/sashafierce/MoodSplash"
+         	},
+         	"Imsify":{
+         		"image":"https://github.com/Trailblazerr1/iiita-hacks-musify/blob/master/app/static/img/party.jpg",
+         		"team":"NullVectors",
+         		"link":"https://github.com/Trailblazerr1/iiita-hacks-musify"
          	}
 
 
