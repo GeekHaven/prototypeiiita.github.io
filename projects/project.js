@@ -5,7 +5,7 @@ var projects = {
                       "link":"https://github.com/iiitahacks"
                   },
      "Ungli": {
-     	"image":"",
+     	"image":"https://raw.githubusercontent.com/BelieveC/Ungli/master/Preview/Ungli.png",
      	"team":"corrupt_shooters",
      	"link":"https://github.com/BelieveC/Ungli"
      }
