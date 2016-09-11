@@ -22,7 +22,6 @@ var projects = {
                       "image":"http://www.quirkybyte.com/wp-content/uploads/2016/08/non-veg-dishes.jpg",
                       "team":"bits please",
                       "link":"https://github.com/akanshugupta9/khana-khazana"
-                  }
-                 
+                  },
 	
 }
