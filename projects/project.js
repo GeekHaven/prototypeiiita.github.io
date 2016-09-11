@@ -75,6 +75,11 @@ var projects = {
                       "team":"MeetYourMakers",
                       "link":"https://github.com/sw4p/Smart-Switch"
                   },
+                "Weather-stat":{
+                      "image":"https://github.com/ritikamotwani/iiitahacks.github.io/blob/master/projects/images/weather-icon.ico",
+                      "team":"kuchbhi",
+                      "link":"https://github.com/ritikamotwani/Weather-stat"
+                  },  
 
 
          
