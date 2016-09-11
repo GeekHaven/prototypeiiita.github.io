@@ -17,7 +17,13 @@ var projects = {
                       "image":"https://avatars3.githubusercontent.com/u/22071699?v=3&s=200",
                       "team":"checkmate",
                       "link":"https://github.com/magician03/gather"
-                  }
+                  },
+                   "IIITA Cart":{
+                      "image":"http://www.iconsplace.com/icons/preview/orange/shoping-cart-filled-256.png",
+                      "team":"fellow hackers",
+                      "link":"https://github.com/fellowhacker/iiitacart"
+                  },
+                  
                  
 	
 }
