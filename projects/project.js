@@ -71,7 +71,7 @@ var projects = {
          		"link":"https://github.com/sashafierce/MoodSplash"
          	},
          	"FreshersGuideToIIITA": {
-         		"image":"https://github.com/pradyumna1/NewbiesGuideToIIITA/blob/master/image.jpg",
+         		"image":"https://raw.githubusercontent.com/pradyumna1/NewbiesGuideToIIITA/master/image.jpg",
          		"team":"team_1",
          		"link": "https://github.com/pradyumna1/NewbiesGuideToIIITA"
          	}
