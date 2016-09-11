@@ -17,6 +17,11 @@ var projects = {
                       "image":"https://avatars3.githubusercontent.com/u/22071699?v=3&s=200",
                       "team":"checkmate",
                       "link":"https://github.com/magician03/gather"
+                  },
+           "Khana Khazana":{
+                      "image":"http://www.quirkybyte.com/wp-content/uploads/2016/08/non-veg-dishes.jpg",
+                      "team":"bits please",
+                      "link":"https://github.com/akanshugupta9/khana-khazana"
                   }
                  
 	
