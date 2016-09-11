@@ -23,5 +23,9 @@ var projects = {
                       "team":"Krayz",
                       "link":"https://github.com/indreshattri/KrayZ"
                   },
+	"voix": {
+			"image":"http://images.clipartpanda.com/simple-microphone-vector-microphone-voice_318-26622.jpg",
+			"team":"HopeLess",
+			"link":"https://github.com/SaptakS/voix.git"
 	
 }
