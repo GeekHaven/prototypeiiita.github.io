@@ -17,7 +17,12 @@ var projects = {
                       "image":"https://avatars3.githubusercontent.com/u/22071699?v=3&s=200",
                       "team":"checkmate",
                       "link":"https://github.com/magician03/gather"
+                  },
+                  
+         "Smart Locator":{
+                      "image":"https://avatars3.githubusercontent.com/u/22071699?v=3&s=200",
+                      "team":"Droid Fueled",
+                      "link":"https://github.com/betterclever/Smart-Locator"
                   }
-                 
-	
+         
 }
