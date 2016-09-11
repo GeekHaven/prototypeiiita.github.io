@@ -69,6 +69,11 @@ var projects = {
          		"image":"http://data.whicdn.com/images/32772812/original.gif",
          		"team":"Gallifreyans",
          		"link":"https://github.com/sashafierce/MoodSplash"
+         	},
+         	"FreshersGuideToIIITA": {
+         		"image":"https://github.com/pradyumna1/NewbiesGuideToIIITA/blob/master/image.jpg",
+         		"team":"team_1",
+         		"link": "https://github.com/pradyumna1/NewbiesGuideToIIITA"
          	}
 
 
