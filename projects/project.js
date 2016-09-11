@@ -69,7 +69,12 @@ var projects = {
          		"image":"http://data.whicdn.com/images/32772812/original.gif",
          		"team":"Gallifreyans",
          		"link":"https://github.com/sashafierce/MoodSplash"
-         	}
+         	},
+         	"smartSwitch":{
+                      "image":"http://cdn.toptenreviews.com/rev/prod/ce/61046-ankuoo-neo-wi-fi-light-switch-box.jpg",
+                      "team":"MeetYourMakers",
+                      "link":"https://github.com/sw4p/Smart-Switch"
+                  },
 
 
          
