@@ -27,5 +27,11 @@ var projects = {
 			"image":"http://images.clipartpanda.com/simple-microphone-vector-microphone-voice_318-26622.jpg",
 			"team":"HopeLess",
 			"link":"https://github.com/SaptakS/voix.git"
+		},
+           "Khana Khazana":{
+                      "image":"http://www.quirkybyte.com/wp-content/uploads/2016/08/non-veg-dishes.jpg",
+                      "team":"bits please",
+                      "link":"https://github.com/akanshugupta9/khana-khazana"
+                  },
 	
 }
