@@ -64,6 +64,11 @@ var projects = {
          		"image":"https://s3.amazonaws.com/images.seroundtable.com/twitter-logo-anlytics-1371211804.png",
          		"team":"daemons",
          		"link":"https//github.com/himanshub16/tweelyser"
+         	},
+         	"MoodSplash":{
+         		"image":"http://data.whicdn.com/images/32772812/original.gif",
+         		"team":"Gallifreyans",
+         		"link":"https://github.com/sashafierce/MoodSplash"
          	}
 
 
