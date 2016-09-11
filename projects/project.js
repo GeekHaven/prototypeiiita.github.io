@@ -85,7 +85,11 @@ var projects = {
                       "team":"kuchbhi",
                       "link":"https://github.com/ritikamotwani/Weather-stat"
                   },  
-
+                "Imsify":{
+ +         		"image":"https://github.com/Trailblazerr1/iiita-hacks-musify/blob/master/app/static/img/party.jpg",
+ +         		"team":"NullVectors",
+ +         		"link":"https://github.com/Trailblazerr1/iiita-hacks-musify"
+           	},
 
          
 }
