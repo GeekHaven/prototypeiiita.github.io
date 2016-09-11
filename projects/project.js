@@ -54,7 +54,12 @@ var projects = {
                   	"team" : "and_the_winner_is",
                   	"link" : "https://github.com/adeora7/simplify"
                   
-                  }
+                  },
+         	 "Tweelyser":{
+         		"image":"https://s3.amazonaws.com/images.seroundtable.com/twitter-logo-anlytics-1371211804.png",
+         		"team":"daemons",
+         		"link":"https//github.com/himanshub16/tweelyser"
+         	}
 
 
          
