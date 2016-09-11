@@ -49,6 +49,12 @@ var projects = {
                       "team":"Android Geeks",
                       "link":"https://github.com/rajatm005/Kisan-Mandi"
                   },
+                  "smiplify" : {
+                  	"image": "http://www.simplifynow.org/wp-content/uploads/2014/10/simplify-fb-logo1.jpg",
+                  	"team" : "and_the_winner_is",
+                  	"link" : "https://github.com/adeora7/simplify"
+                  
+                  }
 
 
          
