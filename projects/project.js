@@ -22,6 +22,6 @@ var projects = {
                       "image":"https://openclipart.org/image/800px/svg_to_png/227918/Video-Game-Controller-Icon.png"",
                       "team":"Krayz",
                       "link":"https://github.com/indreshattri/KrayZ"
-                  }
+                  },
 	
 }
