@@ -12,7 +12,12 @@ var projects = {
                       "image":"https://avatars3.githubusercontent.com/u/22071699?v=3&s=200",
                       "team":"IIIT-A Hacks",
                       "link":"https://github.com/iiitahacks"
-                  },
+                  }, 
+          "Augumented Reality based pokemon fight game": {
+          	"image": "http://orig03.deviantart.net/d3c1/f/2015/187/5/0/pikachu_icon_by_tooncito-d907bf9.jpg",
+          	"team" : "noobGod",
+          	"link" : "https://github.com/abshk111/PokemonApp"
+          },
          "Gather":{
                       "image":"https://avatars3.githubusercontent.com/u/22071699?v=3&s=200",
                       "team":"checkmate",
