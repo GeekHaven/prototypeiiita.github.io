@@ -38,10 +38,10 @@ var projects = {
                       "team":"fellow hackers",
                       "link":"https://github.com/fellowhacker/iiitacart"
                   },
-                  "Bunk Manager":{
+                  "TAPOUT":{
                       "image":"https://avatars3.githubusercontent.com/u/22071699?v=3&s=200",
                       "team":"Error:404",
-                      "link":"https://github.com/prankuragarwal/Error-404-Attendance_manager"
+                      "link":"https://github.com/prankuragarwal/TAPOUT"
                   },
                   
                  
