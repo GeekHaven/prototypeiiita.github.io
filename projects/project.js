@@ -111,6 +111,11 @@ var projects = {
       "image":"https://raw.githubusercontent.com/BelieveC/Ungli/master/Preview/Ungli.png",
       "team":"corrupt_shooters",
       "link":"https://github.com/BelieveC/Ungli"
-     }
+     },
+     "Third Eye":{
+ +                      "image":"https://raw.githubusercontent.com/RaghavTheCyberdude/ThirdEye/master/media/logo.png",
+ +                      "team":"W.I.C.K.E.D.",
+ +                      "link":"'https://github.com/RaghavTheCyberdude/ThirdEye"
+ +                  }
 
 }
