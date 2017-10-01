@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IIITA Hacks | Projects</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Prompt" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src='project.js'></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<center><h1>IIITA Hacks Projects</h1></center>
+			</div>
+		</div>
+		<br><br><br>
+		<div class="row" id="content">
+			
+		</div>
+		<br><br><br>
+	</div>
+
+	<script>
+		for (project in projects) {
+			var content = '<div class=" col-md-6">\
+			<div class="card">\
+			<img src="' + projects[project]["image"] + '" onerror="this.src=\'images/not-found.png\'">\
+			<h3>' + project + '</h3>\
+			<h4>Team: ' + projects[project]["team"] + '</h4>\
+			<a href="' + projects[project]["link"] +'" target="_blank" class="btn btn-new">Source Code</a>\
+			</div>\
+			</div>';
+						$('#content').append(content);
+		}
+	</script>
+</body>
+</html>
