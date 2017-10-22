@@ -19,18 +19,10 @@ $(function() {
         required: true,
         url: true
       },
-      'entry.762412786': {
-        required: true,
-        url: true
-      },
       'entry.688023652': {
-        required: true,
         url: true
       },
-      'entry.226692078': {
-        required: true,
-        digits: true
-      },
+      'entry.226692078': "required",
       //member2
       'entry.909173325': "required",
       'entry.1152021629': {
@@ -41,18 +33,10 @@ $(function() {
         required: true,
         url: true
       },
-      'entry.1774034861': {
-        required: true,
-        url: true
-      },
       'entry.691217861': {
-        required: true,
         url: true
       },
-      'entry.1234290885': {
-        required: true,
-        digits: true
-      },
+      'entry.1234290885': "required",
       //member3
       'entry.1068364446': "required",
       'entry.597684907': {
@@ -63,18 +47,10 @@ $(function() {
         required: true,
         url: true
       },
-      'entry.614203695': {
-        required: true,
-        url: true
-      },
       'entry.1668399282': {
-        required: true,
         url: true
       },
-      'entry.599775532': {
-        required: true,
-        digits: true
-      },
+      'entry.599775532': "required",
       'entry.370521269': "required"
     },
     // Specify validation error messages
@@ -91,18 +67,11 @@ $(function() {
         required: "This field is required",
         url: "Please enter a valid url"
       },
-      'entry.762412786': {
-        required: "This field is required",
-        url: "Please enter a valid url"
-      },
       'entry.688023652': {
         required: "This field is required",
         url: "Please enter a valid url"
       },
-      'entry.226692078': {
-        required: "This field is required",
-        digits: "Please enter a number"
-      },
+      'entry.226692078': "This field is required",
       //member2
       'entry.909173325': "This field is required",
       'entry.1152021629': {
@@ -113,18 +82,11 @@ $(function() {
         required: "This field is required",
         url: "Please enter a valid url"
       },
-      'entry.1774034861': {
-        required: "This field is required",
-        url: "Please enter a valid url"
-      },
       'entry.691217861': {
         required: "This field is required",
         url: "Please enter a valid url"
       },
-      'entry.1234290885': {
-        required: "This field is required",
-        digits: "Please enter a number"
-      },
+      'entry.1234290885': "This field is required",
       //member3
       'entry.1068364446': "This field is required",
       'entry.597684907': {
@@ -135,18 +97,11 @@ $(function() {
         required: "This field is required",
         url: "Please enter a valid url"
       },
-      'entry.614203695': {
-        required: "This field is required",
-        url: "Please enter a valid url"
-      },
       'entry.1668399282': {
         required: "This field is required",
         url: "Please enter a valid url"
       },
-      'entry.599775532': {
-        required: "This field is required",
-        digits: "Please enter a number"
-      },
+      'entry.599775532': "This field is required",
       'entry.370521269': "This field is required"
     },
     // Make sure the form is submitted to the destination defined
