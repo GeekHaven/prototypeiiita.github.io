@@ -93,7 +93,7 @@ h2 {
 
 .email {
 	float: right;
-	width: 45%;
+	width: 100%;
 }
 
 input[type='text'], [type='email'], select, textarea {
@@ -130,7 +130,7 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
 
 .name {
 	float: left;
-	width: 45%;
+	width: 100%;
 }
 
 select {
@@ -239,4 +239,42 @@ textarea {
   input[type='text'], [type='email'], select, textarea {
     font-size: 0.875em;
   }
+}
+
+
+.accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #eee;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
