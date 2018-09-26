@@ -278,3 +278,17 @@ textarea {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+.logo{
+  width: 250px;
+}
+
+.logo--small-w{
+  width: 7.5em;
+  padding: 3em 0.8em;
+}
+
+.logo--small-h{
+  height: 5.5em;
+  padding: 1.0em;
+}
