@@ -243,6 +243,7 @@ textarea {
 
 
 .accordion {
+  display: block;
   background-color: #fff;
   color: #444;
   cursor: pointer;
@@ -259,15 +260,16 @@ textarea {
   background-color: #eee;
 }
 
-.accordion:after {
+.accordion:before {
   content: '\002B';
   color: #777;
   font-weight: bold;
-  float: right;
+  float: left;
   margin-left: 5px;
+  padding-right: 10px;
 }
 
-.active:after {
+.active:before {
   content: "\2212";
 }
 
