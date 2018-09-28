@@ -1,4 +1,3 @@
-
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 img,
@@ -2375,6 +2374,7 @@ table {
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+
 .hameid-loader-overlay {
     width: 100%;
     height: 100%;
@@ -2655,24 +2655,34 @@ textarea {
   transition: max-height 0.2s ease-out;
 }
 
-.Logo-style-w{
-    width: 300px;
-    padding: 30px;
+.logo{
+  width: 200px;
 }
 
-.Logo-style-h{
-  height: 150px;
-  padding: 0 30px;
+@media(min-width: 768px){
+.logo-small-h{
+  width: 9.5rem;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.logo-small-w{
+  width: 15.5rem;
+  padding: 4.2rem 0.8rem;
+}
 }
 
 @media (max-width: 768px){
-  .Logo-style-w{
-    width: 200px;
-    padding: 30px;
+  .logo{
+    width: 100px;
+  }
+
+  .logo-small-w{
+    width: 100px;
+    padding: 30px 10px;
   } 
-  .Logo-style-h{
-    height: 100px;
-    padding: 0 30px;
+  .logo-small-h{
+    height: 50px;
+    padding: 10px;
   }
 }
 
