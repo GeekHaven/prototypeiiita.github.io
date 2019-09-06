@@ -8,6 +8,7 @@ body, html {
     scrollbar-darkshadow-color: ThreeDDarkShadow !important;
     scrollbar-track-color: Scrollbar !important;
     scrollbar-arrow-color: ButtonText !important;
+    font-size: 10px;
   }
 
 img,
@@ -550,15 +551,15 @@ table {
 
 .Icon--block {
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto
 }
 
 @media only screen and (min-width:768px) {
     .Icon--block {
-        margin-left: 0;
-        margin-right: 0
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -601,8 +602,8 @@ table {
 .Icon--build {
     background-image: url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C!--%20Generator%3A%20Adobe%20Illustrator%2019.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200)%20%20--%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%22263.4px%22%20height%3D%22229.7px%22%20viewBox%3D%220%200%20263.4%20229.7%22%20style%3D%22enable-background%3Anew%200%200%20263.4%20229.7%3B%22%20xml%3Aspace%3D%22preserve%22%0D%0A%09%3E%0D%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0D%0A%09.st0%7Bopacity%3A0.25%3Bclip-path%3Aurl(%23SVGID_2_)%3Bfill%3A%23FFFFFF%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cg%3E%0D%0A%09%3Cdefs%3E%0D%0A%09%09%3Cpath%20id%3D%22SVGID_1_%22%20d%3D%22M126.4%2C3.1L0.8%2C220.5c-2.4%2C4.1%2C0.6%2C9.2%2C5.3%2C9.2h251.1c4.7%2C0%2C7.6-5.1%2C5.3-9.2L137%2C3.1%0D%0A%09%09%09C134.6-1%2C128.7-1%2C126.4%2C3.1z%20M126.1%2C167.8l-9.8%2C9.8l-29.5-32.7l29.5-32.7l9.8%2C9.8l-22.9%2C22.9L126.1%2C167.8z%20M149%2C177.7l-9.8-9.8%0D%0A%09%09%09l22.9-22.9L139.2%2C122l9.8-9.8l29.5%2C32.7L149%2C177.7z%22%2F%3E%0D%0A%09%3C%2Fdefs%3E%0D%0A%09%3CclipPath%20id%3D%22SVGID_2_%22%3E%0D%0A%09%09%3Cuse%20xlink%3Ahref%3D%22%23SVGID_1_%22%20%20style%3D%22overflow%3Avisible%3B%22%2F%3E%0D%0A%09%3C%2FclipPath%3E%0D%0A%09%3Cpolygon%20class%3D%22st0%22%20points%3D%22-43.9%2C5.7%2078.3%2C-81.3%20284.5%2C-43%20302%2C309.6%20-35.3%2C297.7%20%09%22%2F%3E%0D%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-6%2C50c26.7%2C6.5%2C51.5-12.6%2C94.5-8.1s67.8%2C27.4%2C100.2-0.4s46.6-25.6%2C83.2%2C3.6S292.6%2C306%2C292.6%2C306L2.2%2C314.6%0D%0A%09%09l-63.9-131.8%22%2F%3E%0D%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-35.6%2C63.2C4.5%2C78.4%2C44.1%2C34.6%2C88.2%2C70.8C129.9%2C105%2C183.7%2C100%2C203%2C88.3c18.8-11.4%2C41.3-24.4%2C84.1%2C17.5%0D%0A%09%09c40.2%2C39.4%2C0%2C137.3%2C0%2C137.3L41.7%2C293.3l-108.8-38.7%22%2F%3E%0D%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M280.2%2C126.6c-33.3%2C10.2-67.8-28.3-108.4-0.5s-96.3%2C20.8-117.3%2C9.1c-21-11.8-46.9-25.7-98.6%2C12.2%0D%0A%09%09s0%2C135.4%2C0%2C135.4l258.6%2C31.5l90.7-36.5%22%2F%3E%0D%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M300.3%2C172c-27.2%2C16.5-81.1%2C11.7-123.8-8.8s-95.3%2C32-142.5%2C23s-147.7-18.7-147.7-18.7L-92%2C298.7l270.6%2C77.6%0D%0A%09%09h182.9L300.3%2C172z%22%2F%3E%0D%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M296.7%2C228.2c-40.5-24.7-92.4-32.2-159.1-0.8s-160.4-20.8-160.4-20.8l-55.5%2C101.8L78.3%2C368l208.4-73%22%2F%3E%0D%0A%3C%2Fg%3E%0D%0A%3C%2Fsvg%3E%0D%0A");
     background-position-x: 0;
-    height: 150px;
-    width: 174px
+    height: 120px;
+    width: 150px
 }
 
 .Icon--close {
@@ -620,8 +621,8 @@ table {
 .Icon--collab {
     background-image: url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C!--%20Generator%3A%20Adobe%20Illustrator%2019.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200)%20%20--%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%22229.4px%22%20height%3D%22229.4px%22%20viewBox%3D%220%200%20229.4%20229.4%22%20style%3D%22enable-background%3Anew%200%200%20229.4%20229.4%3B%22%20xml%3Aspace%3D%22preserve%22%0D%0A%09%3E%0D%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0D%0A%09.st0%7Bopacity%3A0.25%3Bclip-path%3Aurl(%23SVGID_2_)%3Bfill%3A%23FFFFFF%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cg%3E%0D%0A%09%3Cdefs%3E%0D%0A%09%09%3Cpath%20id%3D%22SVGID_1_%22%20d%3D%22M114.7%2C0C51.4%2C0%2C0%2C51.4%2C0%2C114.7c0%2C63.4%2C51.4%2C114.7%2C114.7%2C114.7s114.7-51.4%2C114.7-114.7%0D%0A%09%09%09C229.4%2C51.4%2C178.1%2C0%2C114.7%2C0z%20M145.8%2C154.4c-2.1%2C2.1-4.9%2C3.2-8.1%2C3.3c-3.3-0.1-6-1.2-8.1-3.3s-3.2-4.9-3.3-8.1%0D%0A%09%09%09c0-2.1%2C0.5-4.1%2C1.6-5.8c1-1.7%2C2.4-3.1%2C4.2-4.1v-36c-0.1-1.5-0.7-2.8-1.8-3.9c-1.1-1.1-2.4-1.7-3.9-1.8h-5.7v11.4L103.3%2C89%0D%0A%09%09%09c0%2C2.1-0.5%2C4.1-1.6%2C5.8c-1%2C1.7-2.4%2C3.1-4.2%2C4.1v37.5c1.7%2C1%2C3.1%2C2.4%2C4.2%2C4.1c1%2C1.7%2C1.6%2C3.6%2C1.6%2C5.8c-0.1%2C3.3-1.2%2C6-3.3%2C8.1%0D%0A%09%09%09c-2.1%2C2.1-4.9%2C3.2-8.1%2C3.3c-3.3-0.1-6-1.2-8.1-3.3s-3.2-4.9-3.3-8.1c0-2.1%2C0.5-4.1%2C1.6-5.8c1-1.7%2C2.4-3.1%2C4.2-4.1V98.8%0D%0A%09%09%09c-1.7-1-3.1-2.4-4.2-4.1c-1-1.7-1.6-3.6-1.6-5.8c0.1-3.3%2C1.2-6%2C3.3-8.1c2.1-2.1%2C4.9-3.2%2C8.1-3.3c3.3%2C0.1%2C6%2C1.2%2C8.1%2C3.3%0D%0A%09%09%09c2.1%2C2.1%2C3.2%2C4.9%2C3.3%2C8.1l17.2-17.2v11.4c0.1%2C0%2C0.3%2C0%2C0.7%2C0h5c4.5%2C0.2%2C8.4%2C2%2C11.8%2C5.4c3.4%2C3.4%2C5.2%2C7.3%2C5.4%2C11.8v21.2%0D%0A%09%09%09c0%2C8.9%2C0%2C13.8%2C0%2C14.8c1.7%2C1%2C3.1%2C2.4%2C4.2%2C4.1c1%2C1.7%2C1.6%2C3.6%2C1.6%2C5.8C149%2C149.5%2C147.9%2C152.2%2C145.8%2C154.4z%22%2F%3E%0D%0A%09%3C%2Fdefs%3E%0D%0A%09%3CclipPath%20id%3D%22SVGID_2_%22%3E%0D%0A%09%09%3Cuse%20xlink%3Ahref%3D%22%23SVGID_1_%22%20%20style%3D%22overflow%3Avisible%3B%22%2F%3E%0D%0A%09%3C%2FclipPath%3E%0D%0A%09%3Cpolygon%20class%3D%22st0%22%20points%3D%22-39.7%2C3.9%2067.2%2C-72.1%20247.5%2C-38.7%20262.9%2C269.8%20-32.2%2C259.3%20%09%22%2F%3E%0D%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-6.6%2C42.7c23.4%2C5.7%2C45-11%2C82.7-7.1s59.3%2C23.9%2C87.6-0.4s40.8-22.4%2C72.8%2C3.2s18.1%2C228.2%2C18.1%2C228.2l-254%2C7.5%0D%0A%09%09l-55.9-115.3%22%2F%3E%0D%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-32.4%2C54.2c35.1%2C13.3%2C69.7-25%2C108.3%2C6.7c36.5%2C29.9%2C83.6%2C25.5%2C100.4%2C15.3c16.4-10%2C36.1-21.4%2C73.5%2C15.3%0D%0A%09%09c35.2%2C34.4%2C0%2C120%2C0%2C120l-214.6%2C44l-95.1-33.8%22%2F%3E%0D%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M243.8%2C109.7c-29.1%2C8.9-59.3-24.7-94.8-0.5s-84.2%2C18.2-102.6%2C7.9s-41-22.5-86.3%2C10.7s0%2C118.4%2C0%2C118.4%0D%0A%09%09l226.2%2C27.5l79.3-32%22%2F%3E%0D%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M261.3%2C149.4c-23.8%2C14.4-70.9%2C10.2-108.3-7.7s-83.3%2C28-124.6%2C20.1s-129.2-16.4-129.2-16.4l19%2C114.7l236.7%2C67.9%0D%0A%09%09h160L261.3%2C149.4z%22%2F%3E%0D%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M258.2%2C198.6c-35.4-21.6-80.8-28.2-139.2-0.7s-140.3-18.2-140.3-18.2l-48.5%2C89l137%2C52.1l182.3-63.9%22%2F%3E%0D%0A%3C%2Fg%3E%0D%0A%3C%2Fsvg%3E%0D%0A");
     background-position-x: 0;
-    height: 150px;
-    width: 150px
+    height: 120px;
+    width: 120px
 }
 
 .Icon--deploy {
@@ -1644,13 +1645,11 @@ table {
 
 #r1 #overflow
 {
-    height: 400px;
-    overflow: scroll;
     margin-top: 80px;
     font-size: 18px !important;
-    margin-left: 5%;
-    margin-right: 4%;
-    width: 35%;
+    margin-left: 7%;
+    margin-right: 5%;
+    width: 43%;
     letter-spacing: 1px;
     word-spacing: 2px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -1678,18 +1677,72 @@ a:hover{
 #r1 #fig
 {
     margin-top: 60px;
-    width: 54%;
+    width: 30%;
+    margin-left: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
 
+#r1 #fig h3
+{
+    margin-left: 29%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#r1 #fig h3.build
+{
+    margin-left: 37.5%;
+}
+
+#r1 #fig div div
+{
+    padding: 20px 20px 20px 60px;
+}
+
+@media screen and (max-width: 440px)
+{
+    #r1 #overflow
+    {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+    }
+
+    #r1 #fig
+    {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #r1 #fig h3
+    {
+        margin-left: 25%;
+    }
+
+    #r1 #fig h3.build
+    {
+        margin-left: 33%;
+    }
+
+   
+    #r1 #fig p
+    {
+        margin-left: 20px;
+        font-size: 18px;
+    }
+}
+
+
 #prizes
 {
-    height: 825px;
+    height: auto;
     width: 100%;
     background: white;
     padding-top: 40px;
     color: black;
+    padding-bottom: 70px;
 }
 
 .heading h2
@@ -1748,10 +1801,10 @@ a:hover{
 
 #cards .col-lg-4.col-md-4.col-sm-12 
 {
-    width: 25%;
+    width: 24%;
     height: 300px;
-    margin: 0 4%;
-    background: rgb(218, 233, 15);
+    margin: 0 4.6%;
+    background: #ec1943;
     border: none;
     border-radius: 8px;
 }
@@ -1760,6 +1813,7 @@ a:hover{
 {
     margin-left: 1%;
     margin-top: 100px;
+    margin-bottom: 90px;
 }
 
 #cards .col-lg-4.col-md-4.col-sm-12 img
@@ -2977,4 +3031,9 @@ footer
     {
         margin-top: -40px;
     }
+}
+
+.Center .row
+{
+    margin-top: 6em;
 }
