@@ -1,5 +1,15 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+body, html {
+    scrollbar-face-color: ThreeDFace !important;
+    scrollbar-shadow-color: ThreeDDarkShadow !important;
+    scrollbar-highlight-color: ThreeDHighlight !important;
+    scrollbar-3dlight-color: ThreeDLightShadow !important;
+    scrollbar-darkshadow-color: ThreeDDarkShadow !important;
+    scrollbar-track-color: Scrollbar !important;
+    scrollbar-arrow-color: ButtonText !important;
+  }
+
 img,
 legend {
     border: 0
@@ -322,7 +332,7 @@ table {
         display: none
     }
     .Center-content {
-        padding: 2pc 0 4pc
+        padding: 0pc 0 4pc
     }
 }
 
@@ -437,7 +447,6 @@ table {
 
 .Container {
     margin: 0 auto;
-    max-width: 920px;
     padding: 0 20px
 }
 
@@ -450,8 +459,13 @@ table {
 }
 
 .Container--padded {
-    padding-top: 18px;
+    margin-top: -18px;
+    padding-top: 0px;
     padding-bottom: 18px
+}
+
+.Container a .Text{
+    margin-top: -24px;
 }
 
 .Dropdown {
@@ -483,8 +497,21 @@ table {
     display: block;
     font-size: 0;
     list-style: none;
-    margin: 0 -10px;
-    padding: 0
+    padding: 0;
+
+}
+
+#schedule .Grid
+{
+   margin-left: 25%;
+}
+
+@media screen and (max-width: 440px)
+{
+    #schedule .Grid
+    {
+       margin-left: 5%;
+    }  
 }
 
 .Grid-cell,
@@ -888,10 +915,20 @@ table {
     line-height: 36px
 }
 
+@media screen and (max-width:440px)
+{
+    #title
+    {
+        font-size: 20px;
+        font-family : 'Raleway', sans-serif;
+    }
+}
+
 @media only screen and (min-width:768px) {
     .Text--heading {
-        font-size: 40px;
-        line-height: 60px
+        font-size: 32px;
+        line-height: 40px;
+        font-family: 'Raleway', sans-serif !important;
     }
 }
 
@@ -1078,7 +1115,7 @@ table {
 
 .Section--padded {
     padding-bottom: 90pt;
-    padding-top: 90pt
+    padding-top: 50pt
 }
 
 .Section--fullheight {
@@ -1101,7 +1138,7 @@ table {
 
 @media only screen and (min-width:768px) {
     .Section-footer {
-        margin: 0;
+        margin-top: -30px;
         padding-bottom: 10px;
         position: absolute
     }
@@ -1308,7 +1345,7 @@ table {
 @media only screen and (min-width:768px) {
     .Nav-item {
         display: inline-block;
-        font-size: 14px;
+        font-size: 15px;
         margin: 24px 1pc;
         line-height: 34px
     }
@@ -1331,7 +1368,11 @@ table {
 }
 
 .Nav-center {
-    margin: 20px
+    margin-right: 10px;
+}
+
+.Nav-center a:hover{
+   color: #f4af76;  
 }
 
 .Page {
@@ -1354,7 +1395,9 @@ table {
 
 @media only screen and (min-width:768px) {
     .Nav-center {
-        margin: 0
+        margin-left: -60px;
+        margin-top : -10px;
+        margin-right: 10px;
     }
     .Page-body.is-navigating {
         overflow: visible
@@ -1386,6 +1429,21 @@ table {
     display: block;
     max-height: 100%;
     max-width: 100%
+}
+
+#github
+{
+    max-width: 80%;
+    margin: 0 0 0 50px;
+}
+
+@media screen and (max-width: 440px)
+{
+    #github
+    {
+    max-width: 80%;
+    margin: 0 0 0 30px;
+    }
 }
 
 .Profile-bio {
@@ -1555,6 +1613,11 @@ table {
         content: '|';
         margin: 0 10px
     }
+
+    #headout
+    {
+    margin: 0 0 0 -40px;
+    }
 }
 
 .Footer-link {
@@ -1578,6 +1641,179 @@ table {
 .u-bottomBreath {
     margin-bottom: 55px!important
 }
+
+#r1 #overflow
+{
+    height: 400px;
+    overflow: scroll;
+    margin-top: 80px;
+    font-size: 18px !important;
+    margin-left: 5%;
+    margin-right: 4%;
+    width: 35%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#overflow::-webkit-scrollbar {
+    width:0px;
+}
+
+   
+  /* Handle */
+#overflow::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+#overflow::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#r1 #fig
+{
+    margin-top: 60px;
+    width: 54%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+#prizes
+{
+    height: 825px;
+    width: 100%;
+    background: white;
+    padding-top: 40px;
+    color: black;
+}
+
+.heading h2
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: none;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.heading hr
+{
+    width: 30%;
+    color:black;
+    margin-top: 10px;
+    border: 0.5px solid #e6d8d8;
+}
+
+
+.sub-head
+{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.sub-head h4
+{
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-weight: 500;
+    margin-top: 40px;
+
+}
+
+.Container .about{
+    font-family: 'Raleway', sans-serif !important;  
+    letter-spacing: 1.5px;
+    font-weight: 800; 
+    font-size: 40px;
+    color: white !important;
+}
+
+.Container #about{
+    width: 30%;
+    color:black;
+    margin-top: 10px;
+    border: 0.5px solid #e6d8d8;
+    opacity: 0.2;
+}
+
+
+#cards .col-lg-4.col-md-4.col-sm-12 
+{
+    width: 25%;
+    height: 300px;
+    margin: 0 4%;
+    background: rgb(218, 233, 15);
+    border: none;
+    border-radius: 8px;
+}
+
+#cards
+{
+    margin-left: 1%;
+    margin-top: 100px;
+}
+
+#cards .col-lg-4.col-md-4.col-sm-12 img
+{
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: #74b894;
+}
+
+#cards .col-lg-4.col-md-4.col-sm-12 h2
+{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: none;
+}
+
+#cards .col-lg-4.col-md-4.col-sm-12 p
+{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+}
+
+#cards .col-lg-4.col-md-4.col-sm-12:nth-child(1)
+{
+    margin-top: 35px;
+}
+
+#cards .col-lg-4.col-md-4.col-sm-12:nth-child(3)
+{
+    margin-top: 60px;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .heading hr
+    {
+        width: 70%;
+    }
+
+    .Container #about
+    {
+       width: 80%;
+    }
+}
+
 
 @media only screen and (min-width:768px) {
     .Footer-share {
@@ -1712,6 +1948,11 @@ table {
     margin-bottom: 1em!important
 }
 
+#title
+{
+    margin-bottom: 0.4em !important;
+}
+
 .u-marginTop {
     margin-top: 1em!important
 }
@@ -1774,12 +2015,21 @@ table {
 }
 
 .u-size1of2 {
-    width: 50%!important
+    width: 50%!important;
+}
+
+@media screen and (max-width:440px)
+{
+    #sponsor {
+        width: 80%!important;
+    }
+    
 }
 
 .u-before1of2 {
     margin-left: 50%!important
 }
+
 
 .u-after1of2 {
     margin-right: 50%!important
@@ -1788,6 +2038,7 @@ table {
 .u-push1of2 {
     left: 50%!important
 }
+
 
 .u-pull1of2 {
     left: -50%!important
@@ -2570,6 +2821,8 @@ textarea {
 	transition: all 0.3s;
 }
 
+
+
 #form_button:hover {
   background: #474544;
   color: #F2F3EB;
@@ -2705,4 +2958,23 @@ textarea {
     right: 0;
     bottom: 0;
     background-color: rgba(0,0,0,0.2); /* Black background with opacity */
+}
+
+footer
+{
+    font-family:  'Raleway', sans-serif !important;
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width:768px)
+{
+    .u-sm-size1of2.time
+    {
+        width: 49% !important;
+    }
+
+    footer.place
+    {
+        margin-top: -40px;
+    }
 }
