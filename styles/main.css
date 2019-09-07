@@ -1107,7 +1107,7 @@ table {
 
 .Section--gradient,
 .Section--gradientFromBlack {
-    background: url(../images/gradient-from-black.jpg) center top/cover no-repeat #000
+    background: url(../images/5960.png) center top/cover no-repeat #000;
 }
 
 .Section--gradient {
@@ -1804,9 +1804,20 @@ a:hover{
     width: 24%;
     height: 300px;
     margin: 0 4.6%;
-    background: #ec1943;
+    background: url(../images/5960.png) center top/cover no-repeat #000;
     border: none;
     border-radius: 8px;
+}
+
+@media screen and (max-width: 768px)
+{
+    #cards .col-lg-4.col-md-4.col-sm-12 
+    {
+        width: 70%;
+        margin-left: 13%;
+        margin-bottom: 60px;
+    }
+    
 }
 
 #cards
@@ -1818,12 +1829,28 @@ a:hover{
 
 #cards .col-lg-4.col-md-4.col-sm-12 img
 {
-    width: 100%;
-    height: 200px;
+    width: 60%;
+    height: 50%;
     border: none;
     border-radius: 8px;
-    box-shadow: #74b894;
+    margin: 10% 0 0 18%;
 }
+
+#cards.two{
+    display: none;
+}
+
+@media screen and (max-width: 440px)
+{
+    #cards.two{
+        display: block;
+    }
+
+    #cards.one{
+        display: none;
+    }
+}
+
 
 #cards .col-lg-4.col-md-4.col-sm-12 h2
 {
@@ -1844,15 +1871,20 @@ a:hover{
     letter-spacing: 0.75px;
 }
 
-#cards .col-lg-4.col-md-4.col-sm-12:nth-child(1)
+@media screen and (min-width: 768px)
 {
+    #cards .col-lg-4.col-md-4.col-sm-12:nth-child(1)
+    {
     margin-top: 35px;
-}
+    }
 
 #cards .col-lg-4.col-md-4.col-sm-12:nth-child(3)
-{
+    {
     margin-top: 60px;
+    }
+
 }
+
 
 
 @media screen and (max-width: 768px)
@@ -1866,6 +1898,11 @@ a:hover{
     {
        width: 80%;
     }
+}
+
+#speakers
+{
+    padding-bottom: 80px;
 }
 
 
@@ -3036,4 +3073,11 @@ footer
 .Center .row
 {
     margin-top: 6em;
+}
+
+#photo img:hover
+{
+   filter: grayscale(0.8);
+   transition-delay: 1s;
+   transition: ease-in-out 0.15s;
 }
