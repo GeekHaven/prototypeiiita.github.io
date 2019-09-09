@@ -3081,3 +3081,62 @@ footer
    transition-delay: 1s;
    transition: ease-in-out 0.15s;
 }
+
+.Header-title img 
+{
+    width: 210px;
+    height: 50px;
+    margin-top : -30px;
+}
+
+
+@media screen and (max-width: 440px)
+{
+    .Nav-center a
+    {
+        margin-left:30%;
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    
+    .Nav-center a:hover
+    {
+        color : #ec1943;
+    }
+
+    .Nav-center
+    {
+        margin-top: -100px;
+    }
+}
+
+/*.col-lg-4.col-md-4.col-sm-12
+{
+    visibility: hidden;
+}*/
+
+/*.col-lg-4.col-md-4.col-sm-12:nth-child(2)
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.col-lg-4.col-md-4.col-sm-12:nth-child(1)
+{
+    opacity: 0;
+    transition: opacity 1s;
+    transition-delay: 0.6s;
+}
+
+.col-lg-4.col-md-4.col-sm-12:nth-child(3)
+{
+    opacity: 0;
+    transition: opacity 1s;
+    transition-delay:1.6s;
+}
+
+
+
+#prizes:hover .col-lg-4.col-md-4.col-sm-12{
+    opacity: 1;
+}*/
