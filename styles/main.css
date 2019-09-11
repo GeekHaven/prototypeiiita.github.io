@@ -1697,7 +1697,7 @@ a:hover{
 
 #r1 #fig div div
 {
-    padding: 20px 20px 20px 60px;
+    padding: 20px 20px 20px 20px;
 }
 
 @media screen and (max-width: 440px)
@@ -1829,11 +1829,11 @@ a:hover{
 
 #cards .col-lg-4.col-md-4.col-sm-12 img
 {
-    width: 60%;
+   
     height: 50%;
     border: none;
     border-radius: 8px;
-    margin: 10% 0 0 18%;
+    margin: 10% 0 0% 25%;
 }
 
 #cards.two{
@@ -1848,6 +1848,11 @@ a:hover{
 
     #cards.one{
         display: none;
+    }
+
+    #cards .col-lg-4.col-md-4.col-sm-12 img
+    {
+        margin: 10% 0 0% 18%;
     }
 }
 
@@ -3110,33 +3115,3 @@ footer
     }
 }
 
-/*.col-lg-4.col-md-4.col-sm-12
-{
-    visibility: hidden;
-}*/
-
-/*.col-lg-4.col-md-4.col-sm-12:nth-child(2)
-{
-    opacity: 0;
-    transition: opacity 1s;
-}
-
-.col-lg-4.col-md-4.col-sm-12:nth-child(1)
-{
-    opacity: 0;
-    transition: opacity 1s;
-    transition-delay: 0.6s;
-}
-
-.col-lg-4.col-md-4.col-sm-12:nth-child(3)
-{
-    opacity: 0;
-    transition: opacity 1s;
-    transition-delay:1.6s;
-}
-
-
-
-#prizes:hover .col-lg-4.col-md-4.col-sm-12{
-    opacity: 1;
-}*/
