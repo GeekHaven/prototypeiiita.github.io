@@ -1434,16 +1434,16 @@ table {
 
 #github
 {
-    max-width: 80%;
-    margin: 0 0 0 50px;
+    max-width: 90%;
+    margin: 0 0 0 15px;
 }
 
 @media screen and (max-width: 440px)
 {
     #github
     {
-    max-width: 80%;
-    margin: 0 0 0 30px;
+        max-width: 100%;
+        margin: 0 0 0 5px;
     }
 }
 
@@ -1907,9 +1907,16 @@ a:hover{
 
 #speakers
 {
-    padding-bottom: 80px;
+    padding-bottom: 64px;
 }
 
+@media screen and (max-width: 440px)
+{
+    #speakers
+    {
+    padding-bottom: 20px;
+    }
+}
 
 @media only screen and (min-width:768px) {
     .Footer-share {
@@ -2068,6 +2075,18 @@ a:hover{
 
 .u-textCenter {
     text-align: center!important
+}
+
+.u-textCenter:nth-child(1)
+{
+    margin: -10px 0 40px 0;
+}
+
+@media screen and (max-width: 440px)
+{
+    .u-textCenter:nth-child(1) {
+        margin: -20px 0 30px 0;
+    }
 }
 
 .u-textRight {
