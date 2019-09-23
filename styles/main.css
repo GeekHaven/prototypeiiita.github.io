@@ -260,6 +260,40 @@ table {
     border-spacing: 0
 }
 
+.register
+{
+    font-size: 16px;
+    letter-spacing: 1px;
+    border:2px solid white;
+    padding: 8px 18px;
+    border-radius: 50px;
+}
+
+#reg
+{
+    margin-top: 40px;
+    margin-left: -15px;
+}
+
+@media screen and (max-width: 440px)
+{
+    .register
+    {
+        font-size: 14px;
+        letter-spacing: 1px;
+        border:2px solid white;
+        padding: 8px 18px;
+        border-radius: 50px;
+    }
+    
+    #reg
+    {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
 .Burger,
 .Button {
     letter-spacing: .15em;
@@ -1434,16 +1468,16 @@ table {
 
 #github
 {
-    max-width: 80%;
-    margin: 0 0 0 50px;
+    max-width: 90%;
+    margin: 0 0 0 15px;
 }
 
 @media screen and (max-width: 440px)
 {
     #github
     {
-    max-width: 80%;
-    margin: 0 0 0 30px;
+        max-width: 100%;
+        margin: 0 0 0 5px;
     }
 }
 
@@ -1907,9 +1941,16 @@ a:hover{
 
 #speakers
 {
-    padding-bottom: 80px;
+    padding-bottom: 64px;
 }
 
+@media screen and (max-width: 440px)
+{
+    #speakers
+    {
+    padding-bottom: 20px;
+    }
+}
 
 @media only screen and (min-width:768px) {
     .Footer-share {
@@ -2068,6 +2109,18 @@ a:hover{
 
 .u-textCenter {
     text-align: center!important
+}
+
+.u-textCenter:nth-child(1)
+{
+    margin: -10px 0 40px 0;
+}
+
+@media screen and (max-width: 440px)
+{
+    .u-textCenter:nth-child(1) {
+        margin: -20px 0 30px 0;
+    }
 }
 
 .u-textRight {
@@ -3115,3 +3168,7 @@ footer
     }
 }
 
+.Center-content
+{
+    margin-top: 60px;
+}
